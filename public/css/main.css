@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  .navbar{
+    padding:20px;
+    background:#333;
+    color:#fff;
+    width:100%;
+    transition:all ease 0.8s;
+    position:sticky;
+    top:0;
+    
+  }
+  
+  .navbar a{
+    color:#fff;
+    font-size:18px;
+    margin-right:10px;
+    text-decoration:none;
+    padding:10px 10px;
+     
+  }
+  .navbar #right{
+    float:right;
+  }
+  .navbar a:hover{
+    color:blue;
+  }
+  
+  .navbar .icon{
+    display:none;
+    padding:10px 10px;
+  }
+  
+  @media screen and (max-width:750px){
+    .navbar{
+      positon:relative;
+      padding:10px;
+    }
+    .navbar a{
+      display:none;
+    }
+    
+    .navbar #right{
+      float:none;
+    }
+    
+    .navbar #logo{
+      display:block;
+    }
+     
+    
+    .navbar .icon{
+      display:block;
+      float:right;
+      position:absolute;
+      top:8px;
+      right:10px;
+      font-size:25px;
+      
+    }
+  }
+  
+  @media screen and (max-width:750px){
+    .navbar.responsive{
+      position:relative;
+    }
+    .navbar.responsive a{
+      display:block;
+      float:none;
+    }
+    .navbar.responsive #right{
+      float:none;
+    }
+    .navbar.responsvie .icon{
+      position:absolute;
+      display:block;
+      top:8px;
+      right:10px;
+      font-size:25px;
+    }
+  }
