@@ -1,4 +1,4 @@
-{
+ {
   "name": "mycollege",
   "version": "0.1.0",
   "private": true,
@@ -19,5 +19,10 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "engines" : { 
+     
+    "node" : ">=16.13.1"
   }
 }
+
