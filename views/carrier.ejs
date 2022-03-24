@@ -1,0 +1,67 @@
+<%- include('navbar'); -%>
+<%- include('header'); -%>
+<style>
+    #sec-carr{
+        width: 100%;
+        min-height: 70vh;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .carr_title{
+        width: 60%;
+        min-height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #carrier{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .table{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .table ul{
+        letter-spacing: 2px;
+        font-size: 22px;
+    }
+
+    .table ul a{
+        letter-spacing: 2px;
+        font-size: 22px;
+    }
+
+    @media screen and (max-width:750px){
+        .table{
+            flex-direction: column;
+        }
+    }
+</style>
+ <section id="sec-carr">
+     <div class="carr_title">
+        <h1>welcome to  Carrier guidance programme of <br> <q>Langat Singh College</q></h1>
+
+     </div>
+  </section>
+  <section id="carrier">
+      <div class="table">
+          <ul><a href="carrier/internship"> Internships</a></ul>
+          <ul><a href="carrier/software"> Software Industry</a></ul>
+          <ul><a href="carrier/defence"> Defence </a></ul>
+          <ul><a href="carrier/govt"> Different Govt. Jobs </a></ul>
+      </div>
+  </section>
+
+<%- include('footer'); -%>

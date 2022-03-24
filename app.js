@@ -8,10 +8,11 @@ const path= require('path');
 
 
 const app = express();
-app.use(express.static(path.resolve(__dirname + './public')));
-app.use('/css', express.static(path.resolve(__dirname+'./public/css')));
-// app.use('/js', express.static(__dirname+'public/js'));
 app.set('view engine', 'ejs');
+app.use(express.static("public"));
+// app.use('/css', express.static(path.resolve(__dirname+'./public/css')));
+// app.use('/js', express.static(__dirname+'public/js'));
+ 
 
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -19,7 +20,38 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", (req,res)=>{
     res.render('home');
-})
+});
+
+
+
+
+
+
+app.get("/notes", (req,res)=>{
+    res.render("notes");
+});
+
+
+
+
+app.get("/assignment", (req, res)=>{
+    res.render("assignment");
+});
+
+
+
+
+app.get("/carrier", (req, res)=>{
+    res.render("carrier");
+});
+
+
+
+
+app.get("/community", (req, res)=>{
+    res.render("comminity");
+});
+
 
 
 

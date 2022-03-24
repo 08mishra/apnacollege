@@ -1,0 +1,93 @@
+<%- include('navbar'); -%>
+<%- include('header'); -%>
+<style>
+    #sec-comm{
+        width: 100%;
+        min-height: 70vh;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .comm_title{
+        width: 60%;
+        min-height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #community{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quest{
+        width: 80%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .quest input {
+        width: 80%;
+        border: 2px solid #000;
+        border-radius: 7px;
+        height: 40px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .quest input::placeholder{
+        font-size: 18px;
+
+    }
+
+    .quest textarea{
+        width: 80%;
+        border: 2px solid #000;
+        border-radius: 7px;
+        height: 200px !important;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .quest textarea::placeholder{
+        font-size: 18px;
+    }
+
+    .quest .button{
+        width: 120px;
+        height: 45px;
+        border-radius: 7px;
+        border:1px solid #000;
+        background-color: transparent;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        
+    }
+</style>
+ <section id="sec-comm">
+     <div class="comm_title">
+        <h1>welcome to our Q & A community of <br> <q>Langat Singh College</q></h1>
+
+     </div>
+  </section>
+  <section id="community">
+      <form action="community/question" method="post" class="quest">
+          <input name="title" type="text" placeholder="title" required>
+          <textarea name="question" placeholder="your question" required ></textarea>
+          <button class="button" type="submit">post</button>
+      </form>
+  </section>
+
+<%- include('footer'); -%>
