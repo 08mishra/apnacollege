@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-{
-  "name": "lscollege",
-=======
  {
-  "name": "mycollege",
->>>>>>> 3fc7a2f07f0edee1dc3617a37fd79963a853d003
+  "name": "lscollege",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,17 +15,10 @@
   "scripts": {
     "start": "node app"
      
-<<<<<<< HEAD
      
   },
   "engines" : { 
      "npm":"8.5.5",
     "node" : "16.13.1"
-=======
-  },
-  "engines" : { 
-     
-    "node" : ">=16.13.1"
->>>>>>> 3fc7a2f07f0edee1dc3617a37fd79963a853d003
   }
 }
