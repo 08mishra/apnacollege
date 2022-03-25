@@ -32,6 +32,56 @@ app.get("/notes", (req,res)=>{
 });
 
 
+app.get("/notes/c", (req, res)=>{
+    res.render("c");
+});
+
+
+app.get("/notes/cplus", (req, res)=>{
+    res.render("cmain");
+});
+ 
+
+
+
+app.get("/notes/java", (req, res)=>{
+    res.render("java");
+});
+
+
+
+
+
+app.get("/notes/python", (req, res)=>{
+    res.render("python");
+});
+
+
+
+
+app.get("/notes/dbms", (req, res)=>{
+    res.render("dbms");
+});
+
+
+
+
+app.get("/notes/webdevelopment", (req, res)=>{
+    res.render("web");
+});
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
 
 
 app.get("/assignment", (req, res)=>{
@@ -41,9 +91,80 @@ app.get("/assignment", (req, res)=>{
 
 
 
+
+
+app.get("/assignment/c", (req, res)=>{
+    res.render("assc");
+});
+
+
+app.get("/assignment/cplus", (req, res)=>{
+    res.render("asscmain");
+});
+ 
+
+
+
+app.get("/assignment/java", (req, res)=>{
+    res.render("assjava");
+});
+
+
+
+
+
+app.get("/assignment/python", (req, res)=>{
+    res.render("asspython");
+});
+
+
+
+
+app.get("/assignment/dbms", (req, res)=>{
+    res.render("assdbms");
+});
+
+
+
+
+app.get("/assignment/webdevelopment", (req, res)=>{
+    res.render("assweb");
+});
+
+
+
+
+
+
+
 app.get("/carrier", (req, res)=>{
     res.render("carrier");
 });
+
+
+app.get("/carrier/internships", (req, res)=>{
+    res.render("internships");
+});
+
+
+app.get("/carrier/govt", (req, res)=>{
+    res.render("govt");
+});
+
+
+
+app.get("/carrier/defence", (req, res)=>{
+    res.render("defence");
+});
+
+
+
+app.get("/carrier/software", (req, res)=>{
+    res.render("software");
+});
+
+
+
 
 
 
@@ -51,6 +172,8 @@ app.get("/carrier", (req, res)=>{
 app.get("/community", (req, res)=>{
     res.render("comminity");
 });
+
+
 
 
 
