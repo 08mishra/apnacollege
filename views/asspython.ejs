@@ -1,30 +1,214 @@
 <%- include('navbar'); -%>
-<%- include('header'); -%>
+    <%- include('header'); -%>
 
-<style>
-    #asscontent{
-        width: 90%;
-        height: 80vh;
-        padding: 10px;
-        overflow-x: scroll;
-        overflow-y: scroll;
-        border: 1px solid rgb(63, 63, 63);
-        border-radius: 5px;
-        margin-left: 5%;
-    }
+        <style>
+            #asscontent {
+                width: 90%;
+                height: 80vh;
+                padding: 10px;
+                overflow-x: scroll;
+                overflow-y: scroll;
+                border: 1px solid rgb(63, 63, 63);
+                border-radius: 5px;
+                margin-left: 5%;
+            }
 
-    .ass-container{
-        padding: 10px;
-        
-    }
-</style>
+            .ass-container {
+                padding: 10px;
 
- <section id="asscontent">
-        <div class="ass-container">
+            }
+        </style>
+
+        <section id="asscontent">
+            <div class="ass-container">
                 <ol>
-                    <Li>abc</Li>
+                    <li><a href="/hello-world">Python Program to Print Hello world!</a></li>
+                    <li><a href="/add-number">Python Program to Add Two Numbers</a></li>
+                    <li><a href="/square-root">Python Program to Find the Square Root</a>
+                    </li>
+                    <li><a href="/area-triangle">Python Program to Calculate the Area of a
+                            Triangle</a></li>
+                    <li><a href="/quadratic-roots">Python Program to Solve Quadratic
+                            Equation</a></li>
+                    <li><a href="/swap-variables">Python Program to Swap Two Variables</a>
+                    </li>
+                    <li><a href="/random-number">Python Program to Generate a Random
+                            Number</a></li>
+                    <li><a href="/km-mile">Python Program to Convert Kilometers to Miles</a>
+                    </li>
+                    <li><a href="/celsius-fahrenheit">Python Program to Convert Celsius To
+                            Fahrenheit</a></li>
+                    <li><a href="/positive-negative-zero">Python Program to Check if a
+                            Number is Positive, Negative or 0</a></li>
+                    <li><a href="/odd-even">Python Program to Check if a Number is Odd or
+                            Even</a></li>
+                    <li><a href="/leap-year">Python Program to Check Leap Year</a></li>
+                    <li><a href="/largest-number-three">Python Program to Find the Largest
+                            Among Three Numbers</a></li>
+                    <li><a href="/prime-number">Python Program to Check Prime Number</a>
+                    </li>
+                    <li><a href="/prime-number-intervals">Python Program to Print all Prime
+                            Numbers in an Interval</a></li>
+                    <li><a href="/factorial">Python Program to Find the Factorial of a
+                            Number</a></li>
+                    <li><a href="/multiplication-table">Python Program to Display the
+                            multiplication Table</a></li>
+                    <li><a href="/fibonacci-sequence">Python Program to Print the Fibonacci
+                            sequence</a></li>
+                    <li><a href="/armstrong-number">Python Program to Check Armstrong
+                            Number</a></li>
+                    <li><a href="/armstrong-interval">Python Program to Find Armstrong
+                            Number in an Interval</a></li>
+                    <li><a href="/sum-natural-number">Python Program to Find the Sum of
+                            Natural Numbers</a></li>
+                    <li><a href="/power-anonymous">Python Program to Display Powers of 2
+                            Using Anonymous Function</a></li>
+                    <li><a href="/number-divisible">Python Program to Find Numbers Divisible
+                            by Another Number</a></li>
+                    <li><a href="/conversion-binary-octal-hexadecimal">Python Program to
+                            Convert Decimal to Binary, Octal and Hexadecimal</a></li>
+                    <li><a href="/ascii-character">Python Program to Find ASCII Value of
+                            Character</a></li>
+                    <li><a href="/hcf">Python Program to Find HCF or GCD</a></li>
+                    <li><a href="/lcm">Python Program to Find LCM</a></li>
+                    <li><a href="/factor-number">Python Program to Find the Factors of a
+                            Number</a></li>
+                    <li><a href="/calculator">Python Program to Make a Simple Calculator</a>
+                    </li>
+                    <li><a href="/shuffle-card">Python Program to Shuffle Deck of Cards</a>
+                    </li>
+                    <li><a href="/display-calendar">Python Program to Display Calendar</a>
+                    </li>
+                    <li><a href="/fibonacci-recursion">Python Program to Display Fibonacci
+                            Sequence Using Recursion</a></li>
+                    <li><a href="/natural-number-recursion">Python Program to Find Sum of
+                            Natural Numbers Using Recursion</a></li>
+                    <li><a href="/factorial-recursion">Python Program to Find Factorial of
+                            Number Using Recursion</a></li>
+                    <li><a href="/decimal-binary-recursion">Python Program to Convert
+                            Decimal to Binary Using Recursion</a></li>
+                    <li><a href="/add-matrix">Python Program to Add Two Matrices</a></li>
+                    <li><a href="/transpose-matrix">Python Program to Transpose a Matrix</a>
+                    </li>
+                    <li><a href="/multiply-matrix">Python Program to Multiply Two
+                            Matrices</a></li>
+                    <li><a href="/palindrome">Python Program to Check Whether a String is
+                            Palindrome or Not</a></li>
+                    <li><a href="/remove-punctuation">Python Program to Remove Punctuations
+                            From a String</a></li>
+                    <li><a href="/alphabetical-order">Python Program to Sort Words in
+                            Alphabetic Order</a></li>
+                    <li><a href="/set-operation">Python Program to Illustrate Different Set
+                            Operations</a></li>
+                    <li><a href="/count-vowel">Python Program to Count the Number of Each
+                            Vowel</a></li>
+                    <li><a href="/merge-mails">Python Program to Merge Mails</a></li>
+                    <li><a href="/resolution-image">Python Program to Find the Size
+                            (Resolution) of a Image</a></li>
+                    <li><a href="/hash-file">Python Program to Find Hash of File</a></li>
+                    <li><a href="/pyramid-patterns">Python Program to Create Pyramid
+                            Patterns</a></li>
+                    <li><a href="/merge-dictionaries">Python Program to Merge Two
+                            Dictionaries</a></li>
+                    <li><a href="/create-nested-directories">Python Program to Safely Create
+                            a Nested Directory</a></li>
+                    <li><a href="/index-for-loop">Python Program to Access Index of a List
+                            Using for Loop</a></li>
+                    <li><a href="/flatten-nested-list">Python Program to Flatten a Nested
+                            List</a></li>
+                    <li><a href="/list-slicing">Python Program to Slice Lists</a></li>
+                    <li><a href="/iterate-for-dictionary">Python Program to Iterate Over
+                            Dictionaries Using for Loop</a></li>
+                    <li><a href="/sort-dictionary-value">Python Program to Sort a Dictionary
+                            by Value</a></li>
+                    <li><a href="/check-empty-list">Python Program to Check If a List is
+                            Empty</a></li>
+                    <li><a href="/catch-multiple-exceptions">Python Program to Catch
+                            Multiple Exceptions in One Line</a></li>
+                    <li><a href="/copy-file">Python Program to Copy a File</a></li>
+                    <li><a href="/concatenate-two-lists">Python Program to Concatenate Two
+                            Lists </a></li>
+                    <li><a href="/key-in-dictionary">Python Program to Check if a Key is
+                            Already Present in a Dictionary</a></li>
+                    <li><a href="/list-chunks">Python Program to Split a List Into Evenly
+                            Sized Chunks</a></li>
+                    <li><a href="/string-to-float-or-int">Python Program to Parse a String
+                            to a Float or Int</a></li>
+                    <li><a href="/colored-terminal">Python Program to Print Colored Text to
+                            the Terminal</a></li>
+                    <li><a href="/string-to-datetime"> Python Program to Convert String to
+                            Datetime</a></li>
+                    <li><a href="/list-element-list">Python Program to Get the Last Element
+                            of the List</a></li>
+                    <li><a href="/substring-of-string">Python Program to Get a Substring of
+                            a String</a></li>
+                    <li><a href="/print-without-newline">Python Program to Print Output
+                            Without a Newline</a></li>
+                    <li><a href="/read-line-by-line">Python Program Read a File Line by Line
+                            Into a List</a></li>
+                    <li><a href="/random-list-element">Python Program to Randomly Select an
+                            Element From the List</a></li>
+                    <li><a href="/check-string-number">Python Program to Check If a String
+                            Is a Number (Float)</a></li>
+                    <li><a href="/occurrence-of-item">Python Program to Count the Occurrence
+                            of an Item in a List</a></li>
+                    <li><a href="/append-to-file">Python Program to Append to a File</a>
+                    </li>
+                    <li><a href="/delete-from-dictionary">Python Program to Delete an
+                            Element From a Dictionary</a></li>
+                    <li><a href="/multiline-string">Python Program to Create a Long
+                            Multiline String</a></li>
+                    <li><a href="/extract-file-extension">Python Program to Extract
+                            Extension From the File Name</a></li>
+                    <li><a href="/elapsed-time">Python Program to Measure the Elapsed Time
+                            in Python</a></li>
+                    <li><a href="/class-name">Python Program to Get the Class Name of an
+                            Instance</a></li>
+                    <li><a href="/list-to-dictionary">Python Program to Convert Two Lists
+                            Into a Dictionary</a></li>
+                    <li><a href="/type-vs-instance">Python Program to Differentiate Between
+                            type() and isinstance()</a></li>
+                    <li><a href="/trim-whitespace">Python Program to Trim Whitespace From a
+                            String</a></li>
+                    <li><a href="/file-name-from-file-path">Python Program to Get the File
+                            Name From the File Path</a></li>
+                    <li><a href="/represent-enum">Python Program to Represent enum</a></li>
+                    <li><a href="/multiple-return-values">Python Program to Return Multiple
+                            Values From a Function</a></li>
+                    <li><a href="/line-count">Python Program to Get Line Count of a File</a>
+                    </li>
+                    <li><a href="/find-txt-files">Python Program to Find All File with .txt
+                            Extension Present Inside a Directory</a></li>
+                    <li><a href="/file-modification-date">Python Program to Get File
+                            Creation and Modification Date</a></li>
+                    <li><a href="/current-working-directory">Python Program to Get the Full
+                            Path of the Current Working Directory</a></li>
+                    <li><a href="/iterate-two-lists-parallelly">Python Program to Iterate
+                            Through Two Lists in Parallel</a></li>
+                    <li><a href="/check-filesize">Python Program to Check the File Size</a>
+                    </li>
+                    <li><a href="/reverse-a-number">Python Program to Reverse a Number</a>
+                    </li>
+                    <li><a href="/power">Python Program to Compute the Power of a Number</a>
+                    </li>
+                    <li><a href="/number-of-digits">Python Program to Count the Number of
+                            Digits Present In a Number</a></li>
+                    <li><a href="/anagram">Python Program to Check If Two Strings are
+                            Anagram</a></li>
+                    <li><a href="/capitalise-first-character">Python Program to Capitalize
+                            the First Character of a String</a></li>
+                    <li><a href="/permutation-of-string">Python Program to Compute all the
+                            Permutation of the String</a></li>
+                    <li><a href="/countdown-timer">Python Program to Create a Countdown
+                            Timer</a></li>
+                    <li><a href="/number-of-character">Python Program to Count the Number of
+                            Occurrence of a Character in String</a></li>
+                    <li><a href="/remove-duplicate-from-list">Python Program to Remove
+                            Duplicate Element From a List</a></li>
+                    <li><a href="/bytes-to-string">Python Program to Convert Bytes to a
+                            String</a></li>
                 </ol>
-        </div>
- </section>
+            </div>
+        </section>
 
-<%- include('footer'); -%>
+        <%- include('footer'); -%>
