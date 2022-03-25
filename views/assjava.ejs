@@ -1,30 +1,354 @@
 <%- include('navbar'); -%>
-<%- include('header'); -%>
+    <%- include('header'); -%>
 
-<style>
-    #asscontent{
-        width: 90%;
-        height: 80vh;
-        padding: 10px;
-        overflow-x: scroll;
-        overflow-y: scroll;
-        border: 1px solid rgb(63, 63, 63);
-        border-radius: 5px;
-        margin-left: 5%;
-    }
+        <style>
+            #asscontent {
+                width: 90%;
+                height: 80vh;
+                padding: 10px;
+                overflow-x: scroll;
+                overflow-y: scroll;
+                border: 1px solid rgb(63, 63, 63);
+                border-radius: 5px;
+                margin-left: 5%;
+            }
 
-    .ass-container{
-        padding: 10px;
-        
-    }
-</style>
+            .ass-container {
+                padding: 10px;
 
- <section id="asscontent">
-        <div class="ass-container">
-                <ol>
-                    <Li>abc</Li>
+            }
+        </style>
+
+        <section id="asscontent">
+            <div class="ass-container">
+                <ol style="padding: 5px;">
+                    <li><a href="/print-integer">Java Program to Print an Integer (Entered by
+                            the User)</a></li>
+                    <li><a href="/add-numbers">Java Program to Add Two Integers</a></li>
+                    <li><a href="/multiply-floating-numbers">Java Program to Multiply two
+                            Floating Point Numbers</a></li>
+                    <li><a href="/ascii-value-character">Java Program to Find ASCII Value of a
+                            character</a></li>
+                    <li><a href="/compute-quotient-remainder">Java Program to Compute Quotient
+                            and Remainder</a></li>
+                    <li><a href="/swap-two-numbers">Java Program to Swap Two Numbers</a></li>
+                    <li><a href="/even-odd">Java Program to Check Whether a Number is Even or
+                            Odd</a></li>
+                    <li><a href="/vowel-consonant">Java Program to Check Whether an Alphabet
+                            is Vowel or Consonant</a></li>
+                    <li><a href="/largest-number-three">Java Program to Find the Largest Among
+                            Three Numbers</a></li>
+                    <li><a href="/quadratic-roots-equation">Java Program to Find all Roots of
+                            a Quadratic Equation</a></li>
+                    <li><a href="/leap-year">Java Program to Check Leap Year </a></li>
+                    <li><a href="/positive-negative">Java Program to Check Whether a Number is
+                            Positive or Negative</a></li>
+                    <li><a href="/alphabet">Java Program to Check Whether a Character is
+                            Alphabet or Not</a></li>
+                    <li><a href="/sum-natural-numbers">Java Program to Calculate the Sum of
+                            Natural Numbers</a></li>
+                    <li><a href="/factorial">Java Program to Find Factorial of a Number</a>
+                    </li>
+                    <li><a href="/multiplication-table">Java Program to Generate
+                            Multiplication Table</a></li>
+                    <li><a href="/fibonacci-series">Java Program to Display Fibonacci
+                            Series</a></li>
+                    <li><a href="/hcf-gcd">Java Program to Find GCD of two Numbers</a></li>
+                    <li><a href="/lcm">Java Program to Find LCM of two Numbers</a></li>
+                    <li><a href="/display-alphabets">Java Program to Display Alphabets (A to
+                            Z) using loop</a></li>
+                    <li><a href="/digits-count">Java Program to Count Number of Digits in an
+                            Integer</a></li>
+                    <li><a href="/reverse-number">Java Program to Reverse a Number</a></li>
+                    <li><a href="/power-number">Java Program to Calculate the Power of a
+                            Number</a></li>
+                    <li><a href="/palindrome-number">Java Program to Check Palindrome</a></li>
+                    <li><a href="/prime-number">Java Program to Check Whether a Number is
+                            Prime or Not</a></li>
+                    <li><a href="/prime-number-interval">Java Program to Display Prime Numbers
+                            Between Two Intervals</a></li>
+                    <li><a href="/armstrong-number">Java Program to Check Armstrong Number</a>
+                    </li>
+                    <li><a href="/armstrong-number-interval">Java Program to Display Armstrong
+                            Number Between Two Intervals</a></li>
+                    <li><a href="/prime-number-function">Java Program to Display Prime Numbers
+                            Between Intervals Using Function</a></li>
+                    <li><a href="/armstrong-number-function">Java Program to Display Armstrong
+                            Numbers Between Intervals Using Function</a></li>
+                    <li><a href="/factors-number">Java Program to Display Factors of a
+                            Number</a></li>
+                    <li><a href="/calculator-switch-case">Java Program to Make a Simple
+                            Calculator Using switch...case</a></li>
+                    <li><a href="/sum-prime-numbers">Java Program to Check Whether a Number
+                            can be Expressed as Sum of Two Prime Numbers</a></li>
+                    <li><a href="/sum-natural-numbers-recursion">Java Program to Find the Sum
+                            of Natural Numbers using Recursion</a></li>
+                    <li><a href="/factorial-recursion">Java Program to Find Factorial of a
+                            Number Using Recursion</a></li>
+                    <li><a href="/gcd-hcf-recursion">Java Program to Find G.C.D Using
+                            Recursion</a></li>
+                    <li><a href="/binary-decimal-convert">Java Program to Convert Binary
+                            Number to Decimal and vice-versa</a></li>
+                    <li><a href="/octal-decimal-convert">Java Program to Convert Octal Number
+                            to Decimal and vice-versa</a></li>
+                    <li><a href="/binary-octal-convert">Java Program to Convert Binary Number
+                            to Octal and vice-versa</a></li>
+                    <li><a href="/reverse-sentence">Java Program to Reverse a Sentence Using
+                            Recursion</a></li>
+                    <li><a href="/power-number-recursion">Java Program to calculate the power
+                            using recursion</a></li>
+                    <li><a href="/average-arrays">Java Program to Calculate Average Using
+                            Arrays</a></li>
+                    <li><a href="/largest-array">Java Program to Find Largest Element of an
+                            Array</a></li>
+                    <li><a href="/standard-deviation">Java Program to Calculate Standard
+                            Deviation</a></li>
+                    <li><a href="/add-matrix">Java Program to Add Two Matrix Using
+                            Multi-dimensional Arrays</a></li>
+                    <li><a href="/multiply-matrix">Java Program to Multiply Two Matrix Using
+                            Multi-dimensional Arrays</a></li>
+                    <li><a href="/multiply-matrix-function">Java Program to Multiply two
+                            Matrices by Passing Matrix to a Function</a></li>
+                    <li><a href="/transpose-matrix">Java Program to Find Transpose of a
+                            Matrix</a></li>
+                    <li><a href="/frequency-character">Java Program to Find the Frequency of
+                            Character in a String</a></li>
+                    <li><a href="/vowel-consonant-count-string">Java Program to Count the
+                            Number of Vowels and Consonants in a Sentence</a></li>
+                    <li><a href="/lexicographical-order-words">Java Program to Sort Elements
+                            in Lexicographical Order (Dictionary Order)</a></li>
+                    <li><a href="/add-complex-number">Java Program to Add Two Complex Numbers
+                            by Passing Class to a Function</a></li>
+                    <li><a href="/difference-time">Java Program to Calculate Difference
+                            Between Two Time Periods</a></li>
+                    <li><a href="/pyramid-pattern">Java Code To Create Pyramid and Pattern</a>
+                    </li>
+                    <li><a href="/remove-whitespaces">Java Program to Remove All Whitespaces
+                            from a String</a></li>
+                    <li><a href="/print-array">Java Program to Print an Array</a></li>
+                    <li><a href="/string-date">Java Program to Convert String to Date</a></li>
+                    <li><a href="/round-number-decimal">Java Program to Round a Number to n
+                            Decimal Places</a></li>
+                    <li><a href="/concatenate-two-arrays">Java Program to Concatenate Two
+                            Arrays</a></li>
+                    <li><a href="/char-string">Java Program to Convert Character to String and
+                            Vice-Versa</a></li>
+                    <li><a href="/array-contains-value">Java Program to Check if An Array
+                            Contains a Given Value</a></li>
+                    <li><a href="/string-empty-null">Java Program to Check if a String is
+                            Empty or Null</a></li>
+                    <li><a href="/current-date-time">Java Program to Get Current Date/TIme</a>
+                    </li>
+                    <li><a href="/milliseconds-minutes-seconds">Java Program to Convert
+                            Milliseconds to Minutes and Seconds</a></li>
+                    <li><a href="/add-two-dates">Java Program to Add Two Dates</a></li>
+                    <li><a href="/join-two-lists">Java Program to Join Two Lists</a></li>
+                    <li><a href="/convert-list-array">Java Program to Convert a List to Array
+                            and Vice Versa</a></li>
+                    <li><a href="/current-working-directory">Java Program to Get Current
+                            Working Directory</a></li>
+                    <li><a href="/convert-map-list">Java Program to Convert Map (HashMap) to
+                            List</a></li>
+                    <li><a href="/convert-array-set">Java Program to Convert Array to Set
+                            (HashSet) and Vice-Versa</a></li>
+                    <li><a href="/convert-byte-array-hexadecimal">Java Program to Convert Byte
+                            Array to Hexadecimal</a></li>
+                    <li><a href="/string-from-file">Java Program to Create String from
+                            Contents of a File</a></li>
+                    <li><a href="/append-text-existing-file">Java Program to Append Text to an
+                            Existing File</a></li>
+                    <li><a href="/convert-stack-trace-string">Java Program to Convert a Stack
+                            Trace to a String</a></li>
+                    <li><a href="/convert-file-byte-array">Java Program to Convert File to
+                            byte array and Vice-Versa</a></li>
+                    <li><a href="/convert-inputstream-string">Java Program to Convert
+                            InputStream to String</a></li>
+                    <li><a href="/convert-outputstream-string">Java Program to Convert
+                            OutputStream to String</a></li>
+                    <li><a href="/enum-by-string-value">Java Program to Lookup enum by String
+                            value</a></li>
+                    <li><a href="/compare-strings">Java Program to Compare Strings</a></li>
+                    <li><a href="/sort-map-values">Java Program to Sort a Map By Values</a>
+                    </li>
+                    <li><a href="/sort-custom-objects-property">Java Program to Sort ArrayList
+                            of Custom Objects By Property</a></li>
+                    <li><a href="/check-string-numeric">Java Program to Check if a String is
+                            Numeric</a></li>
+                    <li><a href="/create-directory">Java Program to Create Directories</a>
+                    </li>
+                    <li><a href="/rename-file">Java Program to Rename File</a></li>
+                    <li><a href="/list-files">Java Program to Get all Files Present in a
+                            Directory</a></li>
+                    <li><a href="/copy-file">Java Program to Copy File</a></li>
+                    <li><a href="/char-to-int-conversion">Java Program to convert char type
+                            variables to int</a></li>
+                    <li><a href="/int-to-char-conversion">Java Program to convert int type
+                            variables to char</a></li>
+                    <li><a href="/long-to-int-conversion">Java Program to convert long type
+                            variables into int</a></li>
+                    <li><a href="/int-to-long-conversion">Java Program to convert int type
+                            variables to long</a></li>
+                    <li><a href="/boolean-to-string-conversion">Java Program to convert
+                            boolean variables into string</a></li>
+                    <li><a href="/string-to-boolean-conversion">Java Program to convert string
+                            type variables into boolean</a></li>
+                    <li><a href="/string-to-int-conversion">Java Program to convert string
+                            type variables into int</a></li>
+                    <li><a href="/int-to-string-conversion">Java Program to convert int type
+                            variables to String</a></li>
+                    <li><a href="/int-to-double-conversion">Java Program to convert int type
+                            variables to double</a></li>
+                    <li><a href="/double-to-int-conversion">Java Program to convert double
+                            type variables to int</a></li>
+                    <li><a href="/string-to-double-conversion">Java Program to convert string
+                            variables to double</a></li>
+                    <li><a href="/double-to-string-conversion">Java Program to convert double
+                            type variables to string</a></li>
+                    <li><a href="/primitive-types-wrapper-objects">Java Program to convert
+                            primitive types to objects and vice versa</a></li>
+                    <li><a href="/bubble-sort">Java Program to Implement Bubble Sort
+                            algorithm</a></li>
+                    <li><a href="/quick-sort">Java Program to Implement Quick Sort
+                            Algorithm</a></li>
+                    <li><a href="/merge-sort">Java Program to Implement Merge Sort
+                            Algorithm</a></li>
+                    <li><a href="/binary-search">Java Program to Implement Binary Search
+                            Algorithm</a></li>
+                    <li><a href="/call-one-constructor-from-another">Java Program to Call One
+                            Constructor from another</a></li>
+                    <li><a href="/private-constructor-implementation">Java Program to
+                            implement private constructors</a></li>
+                    <li><a href="/lambda-expression-as-method-parameter">Java Program to pass
+                            lambda expression as a method argument</a></li>
+                    <li><a href="/passing-method-as-argument">Java Program to pass method call
+                            as arguments to another method</a></li>
+                    <li><a href="/calculate-methods-execution-time">Java Program to Calculate
+                            the Execution Time of Methods</a></li>
+                    <li><a href="/string-to-inputstream">Java Program to Convert a String into
+                            the InputStream</a></li>
+                    <li><a href="/inputstream-to-bytearray-conversion">Java Program to Convert
+                            the InputStream into Byte Array</a></li>
+                    <li><a href="/load-file-as-inputstream">Java Program to Load File as
+                            InputStream</a></li>
+                    <li><a href="/create-and-write-to-file">Java Program to Create File and
+                            Write to the File</a></li>
+                    <li><a href="/read-file">Java Program to Read the Content of a File Line
+                            by Line</a></li>
+                    <li><a href="/delete-file">Java Program to Delete File in Java</a></li>
+                    <li><a href="/delete-directory">Java Program to Delete Empty and Non-empty
+                            Directory</a></li>
+                    <li><a href="/get-file-extension">Java Program to Get the File
+                            Extension</a></li>
+                    <li><a href="/get-file-name-from-absolute-path">Java Program to Get the
+                            name of the file from the absolute path</a></li>
+                    <li><a href="/get-relative-path">Java Program to Get the relative path
+                            from two absolute paths</a></li>
+                    <li><a href="/count-lines-in-file">Java Program to Count number of lines
+                            present in the file</a></li>
+                    <li><a href="/get-class-of-object">Java Program to Determine the class of
+                            an object</a></li>
+                    <li><a href="/create-enum-class">Java Program to Create an enum class</a>
+                    </li>
+                    <li><a href="/print-object">Java Program to Print object of a class</a>
+                    </li>
+                    <li><a href="/create-custom-exception">Java Program to Create custom
+                            exception</a></li>
+                    <li><a href="/create-immutable-class">Java Program to Create an Immutable
+                            Class</a></li>
+                    <li><a href="/check-if-two-strings-are-anagram">Java Program to Check if
+                            two strings are anagram</a></li>
+                    <li><a href="/compute-all-string-permutation">Java Program to Compute all
+                            the permutations of the string</a></li>
+                    <li><a href="/generate-random-string">Java Program to Create random
+                            strings</a></li>
+                    <li><a href="/clear-stringbuffer">Java Program to Clear the
+                            StringBuffer</a></li>
+                    <li><a href="/capitalize-first-character-of-string">Java Program to
+                            Capitalize the first character of each word in a String</a></li>
+                    <li><a href="/iterate-each-string-characters">Java Program to Iterate
+                            through each characters of the string.</a></li>
+                    <li><a href="/differentiate-string-equals">Java Program to Differentiate
+                            String == operator and equals() method</a></li>
+                    <li><a href="/implement-switch-on-strings">Java Program to Implement
+                            switch statement on strings</a></li>
+                    <li><a href="/simple-compound-interest">Java Program to Calculate simple
+                            interest and compound interest</a></li>
+                    <li><a href="/implement-multiple-inheritance">Java Program to Implement
+                            multiple inheritance</a></li>
+                    <li><a href="/determine-os-name">Java Program to Determine the name and
+                            version of the operating system</a></li>
+                    <li><a href="/check-if-two-booleans-are-true">Java Program to Check if two
+                            of three boolean variables are true</a></li>
+                    <li><a href="/iterate-over-enums">Java Program to Iterate over enum</a>
+                    </li>
+                    <li><a href="/check-birthday">Java Program to Check the birthday and print
+                            Happy Birthday message</a></li>
+                    <li><a href="/linkedlist-implementation">Java Program to Implement
+                            LinkedList</a></li>
+                    <li><a href="/stack-implementation">Java Program to Implement stack data
+                            structure</a></li>
+                    <li><a href="/queue-implementation">Java Program to Implement the queue
+                            data structure</a></li>
+                    <li><a href="/get-middle-element-of-linkedlist">Java Program to Get the
+                            middle element of LinkedList in a single iteration</a></li>
+                    <li><a href="/linkedlist-array-conversion">Java Program to Convert the
+                            LinkedList into an Array and vice versa</a></li>
+                    <li><a href="/arraylist-string-conversion">Java Program to Convert the
+                            ArrayList into a string and vice versa</a></li>
+                    <li><a href="/iterate-over-arraylist">Java Program to Iterate over an
+                            ArrayList</a></li>
+                    <li><a href="/iterate-over-hashmap">Java Program to Iterate over a
+                            HashMap</a></li>
+                    <li><a href="/iterate-over-set">Java Program to Iterate over a Set</a>
+                    </li>
+                    <li><a href="/merge-two-lists">Java Program to Merge two lists</a></li>
+                    <li><a href="/update-hashmap-value">Java Program to Update value of
+                            HashMap using key</a></li>
+                    <li><a href="/remove-duplicate-elements-from-arraylist">Java Program to
+                            Remove duplicate elements from ArrayList</a></li>
+                    <li><a href="/get-key-from-hashmap-using-value">Java Program to Get key
+                            from HashMap using the value</a></li>
+                    <li><a href="/detect-loop-in-linkedlist">Java Program to Detect loop in a
+                            LinkedList</a></li>
+                    <li><a href="/calculate-set-union">Java Program to Calculate union of two
+                            sets</a></li>
+                    <li><a href="/calculate-set-intersection">Java Program to Calculate the
+                            intersection of two sets</a></li>
+                    <li><a href="/calculate-set-difference">Java Program to Calculate the
+                            difference between two sets</a></li>
+                    <li><a href="/check-subset-of-a-set">Java Program to Check if a set is the
+                            subset of another set</a></li>
+                    <li><a href="/sort-map-by-keys">Java Program to Sort map by keys</a></li>
+                    <li><a href="/pass-arraylist-as-function-argument">Java Program to Pass
+                            ArrayList as the function argument</a></li>
+                    <li><a href="/iterate-over-arraylist-using-lambda-expression">Java Program
+                            to Iterate over ArrayList using Lambda Expression</a></li>
+                    <li><a href="/binary-tree-implementation">Java Program to Implement Binary
+                            Tree Data Structure</a></li>
+                    <li><a href="/preorder-tree-traversal">Java Program to Perform the
+                            preorder tree traversal</a></li>
+                    <li><a href="/postorder-tree-traversal">Java Program to Perform the
+                            postorder tree traversal</a></li>
+                    <li><a href="/inorder-tree-traversal">Java Program to Perform the inorder
+                            tree traversal</a></li>
+                    <li><a href="/count-leaf-nodes-of-tree">Java Program to Count number of
+                            leaf nodes in a tree</a></li>
+                    <li><a href="/check-string-contains-substring">Java Program to Check if a
+                            string contains a substring</a></li>
+                    <li><a href="/access-private-members">Java Program to Access private
+                            members of a class</a></li>
+                    <li><a href="/check-valid-shuffle-of-strings">Java Program to Check if a
+                            string is a valid shuffle of two distinct strings</a></li>
+                    <li><a href="/graph-implementation">Java Program to Implement the graph
+                            data structure</a></li>
+                    <li><a href="/remove-element-from-linkedlist">Java Program to Remove
+                            elements from the LinkedList.</a></li>
+                    <li><a href="/add-element-to-linkedlist">Java Program to Add elements to a
+                            LinkedList</a></li>
+                    <li><a href="/access-element-from-linkedlist">Java Program to Access
+                            elements from a LinkedList.</a></li>
                 </ol>
-        </div>
- </section>
+            </div>
+        </section>
 
-<%- include('footer'); -%>
+        <%- include('footer'); -%>
