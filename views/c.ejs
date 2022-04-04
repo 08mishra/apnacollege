@@ -1,6 +1,57 @@
 <%- include('navbar'); -%>
 <%- include('header'); -%>
 
-<h1>hello world</h1>
+<style>
+    #ccontent{
+        width: 90%;
+        height: 80vh;
+        padding: 10px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        border: 1px solid rgb(63, 63, 63);
+        border-radius: 5px;
+        margin-left: 5%;
+    }
+
+    .c-container{
+        padding: 10px;
+        
+    }
+
+    .card{
+        width: 90%;
+        height: 350px;
+        background: rgb(146, 146, 146);
+        border-radius: 7px;
+        border: none;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .card::-webkit-scrollbar{
+        display: none;
+    }
+
+    @media screen and (max-width:750px){
+        .card{
+            width: 98%;
+            margin-left: 1%;
+            height: 250px;
+        }
+    }
+</style>
+
+<section id="ccontent">
+    <div class="c-container">
+         <div class="card">
+
+         </div>
+         <div class="card">
+
+        </div>
+    </div>
+</section>
 
 <%- include('footer'); -%>
