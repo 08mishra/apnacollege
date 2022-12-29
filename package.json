@@ -1,8 +1,4 @@
-<<<<<<< HEAD
  {
-=======
-  {
->>>>>>> 183a7904c51e80d866c15ae390891a073d00c417
   "name": "lscollege",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +13,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node app"
+    "start": "nodemon app"
      
      
   },

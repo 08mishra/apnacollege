@@ -5,19 +5,22 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require('lodash');
 const path= require('path');
+const fs=require('fs');
 
 
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
+app.use('/doc',express.static(__dirname+ '/doc'));
 // app.use('/css', express.static(path.resolve(__dirname+'./public/css')));
 // app.use('/js', express.static(__dirname+'public/js'));
  
 
 
 app.use(bodyParser.urlencoded({extended: true}));
-
-
+//app.use(express.static(path.join(__dirname, 'views/doc')));
+ 
+ 
 app.get("/", (req,res)=>{
     res.render('home');
 });
